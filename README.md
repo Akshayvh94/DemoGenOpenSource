@@ -48,11 +48,13 @@ The purpose of this system is to simplify working with the hands-on-labs, demos 
       ![AppSetting](Images/AppSetting.png)
 
   1. Now open Visual Studio, go to solution explorer. Under **VSTSDemoBuilder** web project open **Web.config** file. In the App Setting part of the web.config file, replace your ***App ID***, ***Client Secret*** and the ***Redirect URL***.
-    ```
+
+
+      ```
       <add key="ClientId" value="YOUR_APP_ID" />
       <add key="ClientSecret" value="YOUR_APPLICATION_CLIENT_SECRET" />
       <add key="RedirectUri" value="YOUR_APPLICATION_REDIRECT_URL" />
-    ```
+      ```
   Now you can host and run this application.
 
 
