@@ -8,24 +8,26 @@ The purpose of this system is to simplify working with the hands-on-labs, demos 
 ## Prerequisite
 
 
- 1. This application requires Visual Studio 2017.
- 
- 1. Clone the solution to your local repository or fork it to your GitHub repo and clone it from your repository.
+ 1. This application requires Visual Studio 2017
+
+ 1. GitHub Account
 
 
-## How to Run this application locally
+## How to Run this application locally?
 
- To run locally you need to get access token and hard code it in the code. To get Access Token Signin with your VSTS credentials [here](https://mstokengenerator.azurewebsites.net)
+  Clone the solution to your local repository or fork it to your GitHub repo and clone it from your repository.
 
- Once you got the Access Token, open **Environment Controller** in **VSTSDemoBuilder** web project, go to line number 274, uncomment it and replace the value with your access token.
+  To run locally you need to get access token and hard code it in the code. To get Access Token Signin with your VSTS credentials [here](https://mstokengenerator.azurewebsites.net)
+
+  Once you got the Access Token, open **Environment Controller** in **VSTSDemoBuilder** web project, go to line number 274, uncomment it and replace the value with your access token.
 
    ![CreateMethod](Images/CreateMethod.png)
 
- Keep break points at line number 186 and 264. Run your application. 
+  Keep break points at line number 186 and 264. Run your application. 
 
  Once the browser loads the sign in page, change the URL to ***/Environment/Create***. Once the control hits the Break point, jump the control to line number 264 and press F5 key to continue the debugging session.
 
-## Want to host?
+## How to host?
 
  1. Register your application with [Microsoft App Registration](https://app.vsaex.visualstudio.com/app/register?mkt=en-US) page
 
